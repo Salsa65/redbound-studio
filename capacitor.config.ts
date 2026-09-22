@@ -8,12 +8,8 @@ const config: CapacitorConfig = {
     backgroundColor: '#07070a',
     allowMixedContent: false,
   },
-  ios: {
-    backgroundColor: '#07070a',
-  },
   server: {
     androidScheme: 'https',
-    iosScheme: 'https',
   },
 };
 
