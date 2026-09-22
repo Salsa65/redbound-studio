@@ -14,7 +14,10 @@
     "android:open": "npx cap open android",
     "android:assets": "node scripts/android-assets.mjs",
     "ios:sync": "npx cap sync ios",
-    "ios:open": "npx cap open ios"
+    "ios:open": "npx cap open ios",
+    "native:prepare": "npm run build:mobile && npx cap sync",
+    "android:add": "npx cap add android",
+    "ios:add": "npx cap add ios"
   },
   "dependencies": {
     "@capacitor/app": "8.0.0",
