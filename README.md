@@ -37,9 +37,9 @@ For this standalone repository add:
 
 `https://salsa65.github.io/redbound-studio/`
 
-to Supabase Auth redirect URLs. Android OAuth continues to use:
+to Supabase Auth redirect URLs. Android OAuth uses:
 
-`com.reforge.duo://oauth-callback`
+`org.scarletreverie.redbound://oauth-callback`
 
 ## Build
 
@@ -63,7 +63,7 @@ Expected site:
 
 The **Build Redbound Android APK** workflow creates the `Redbound-Android-APK` artifact containing `Redbound-debug.apk`.
 
-The Android build includes microphone/audio permissions and the OAuth deep link. The package ID intentionally remains `com.reforge.duo` so this build can upgrade the existing Redbound installation.
+The Android build includes microphone/audio permissions and the OAuth deep link. The Android package ID is `org.scarletreverie.redbound`. REDBOUND is Android-focused; iOS packaging is intentionally not part of this repository.
 
 ## Voice check
 
